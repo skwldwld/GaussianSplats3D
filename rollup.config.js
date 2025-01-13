@@ -1,4 +1,4 @@
-import { base64 } from "/util/import-base-64.js";
+import { base64 } from "./util/import-base-64.js";
 import terser from "@rollup/plugin-terser";
 
 const globals = {
