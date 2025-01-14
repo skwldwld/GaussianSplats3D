@@ -1,8 +1,8 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/demo/index.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/build/demo/index.html" }],
   "headers": [
     {
-      "source": "/demo/lib/three.module.js",
+      "source": "/build/demo/lib/three.module.js",
       "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
     }
   ]
