@@ -1,5 +1,5 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/build/demo/index.html" }],
+  "rewrites": [{ "source": "/(.*)", "destination": "/demo/index.html" }],
   "headers": [
     {
       "source": "/build/demo/lib/three.module.js",
