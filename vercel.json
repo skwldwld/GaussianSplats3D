@@ -1,3 +1,9 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/demo/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/demo/index.html" }],
+  "headers": [
+    {
+      "source": "/demo/lib/three.module.js",
+      "headers": [{ "key": "Content-Type", "value": "application/javascript" }]
+    }
+  ]
 }
