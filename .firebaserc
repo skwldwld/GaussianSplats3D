@@ -1,5 +1,8 @@
 {
   "projects": {
-    "default": "gaussiansplatting-7c17c"
-  }
+    "default": "gaussiansplatting-7c17c",
+    "gaussian": "gaussian-2e7eb"
+  },
+  "targets": {},
+  "etags": {}
 }
